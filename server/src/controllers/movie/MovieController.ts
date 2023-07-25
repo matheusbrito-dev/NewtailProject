@@ -2,8 +2,8 @@ import { Request, Response } from 'express';
 import axios from 'axios';
 import apiUrl from '../../middleware';
 
-export default class GroupController {
-  async listAll(request: Request, response: Response) {
+export default class MovieController {
+  async list(request: Request, response: Response) {
     try {
       //const token = request?.headers?.authorization?.split(' ')[1];
       const payload = request.body;
